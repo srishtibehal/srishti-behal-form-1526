@@ -1,0 +1,91 @@
+body{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+.form-wrap {
+    color: black;
+    line-height: 30px;
+    padding: 40px;
+}
+fieldset{
+    background: #F5F5F5;
+    border: 2px solid #DDD;
+}
+legend{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #DDD;
+    font-size: 2rem;
+}
+
+label {
+    display: block;
+}
+
+form input,
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    line-height: 1.5rem;
+}
+textarea{
+    min-height: 200px;
+    max-height: 200px;
+    height: 200px;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    color: white;
+}
+
+footer a {
+    padding: 0 40px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (min-width: 25rem) {
+            .fn{
+                float: left;
+                width: 100%;
+            }
+            .em{
+                float: left;
+                width: 100%;
+                
+            }
+            .msg{
+                float : left;
+                width: 100%;
+        
+    }
+}
+@media only screen and (min-width: 40rem) {
+        .form-wrap {
+            max-width: 50rem;
+            margin: 0 auto;
+        }
+        .fn,
+        .em{
+            float: left;
+            width: 46%;
+        }
+        .fn{
+            margin-right: 4%;
+        }
+        .msg{
+            float : bottom;
+            width: 100%;
+
+
+    }
+}
